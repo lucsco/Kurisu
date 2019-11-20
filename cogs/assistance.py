@@ -211,6 +211,7 @@ versions on 11.8+ will cause a blackscreen until you update.
                 2. Boot GodMode9 by holding START on boot then preform a normal NAND backup. After that, power off the system.
                 3. Copy the files in gm9/out on your SD card to a safe spot on your computer. Then, delete the files from **the SD card.**
                 4. Copy the Nintendo 3DS folder to your SD card root then delete it **from your computer.**
+		If you still don't have enough space, repeat the procedure with the DCIM folder
                 """))
         await ctx.send(embed=embed)                       
 
